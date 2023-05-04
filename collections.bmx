@@ -15,6 +15,7 @@
 ' 2. Altered source versions must be plainly marked as such, and must not be
 '    misrepresented as being the original software.
 ' 3. This notice may not be removed or altered from any source distribution.
+
 SuperStrict
 
 Rem
@@ -30,7 +31,10 @@ ModuleInfo "History: 1.00 Initial Release"
 
 Framework BRL.Blitz
 Import BRL.Collections
+Import BRL.LinkedList
 
 Include "src/doublemap.bmx"
+Include "src/doublemaplist.bmx"
 Include "src/maplist.bmx"
 Include "src/mapset.bmx"
+Include "src/stringlist.bmx"
